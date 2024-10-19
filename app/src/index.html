@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Hi, I am Gabrielly</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <content>
+      <section id="section_home" class="section_home">
+        <header>
+          <nav id="nav" class="nav">
+            <div class="button"><a href="#section_home">home</a></div>
+            <div class="button"><a href="#section_description">about</a></div>
+            <div class="button"><a href="#section_skills">skills</a></div>
+            <div class="button"><a href="#section_contact">contact</a></div>
+          </nav>
+        </header>
+        <div class="profile_background">
+          <div class="profile_img"></div>
+        </div>
+
+        <div class="title">Hi, I am <mark id="typing"> Gabrielly</mark></div>
+
+        <div class="content_button_group">
+          <button class="button" onclick="navigate('linkedin')">
+            <img src="../assets/icons/LinkedIn.svg" />
+          </button>
+          <button class="button" onclick="navigate('github')">
+            <img src="../assets/icons/GitHub.svg" />
+          </button>
+          <button class="button" onclick="navigate('youtube')">
+            <img src="../assets/icons/YouTube.svg" />
+          </button>
+        </div>
+      </section>
+
+      <section id="section_description" class="section_description">
+        <div class="profile">
+          <div class="profile_background">
+            <div class="profile_img"></div>
+          </div>
+        </div>
+
+        <div class="description">
+          <div class="title">discover me</div>
+          <p class="txt_content">
+            Arquiteta de soluções, eu programo por hobby, aliás, trabalho para
+            desenhar, então finalmente posso falar que vivo de arte? Uma arte
+            moderna composta por if’s, expressada por símbolos. Once upon a
+            time… a little girl who bought a linux computer accidentally<…> to
+            be honest I ‘m so far to be the better, but I’m fun sometimes. Do
+            you like coffee e que tipo de aspas você usa?;
+          </p>
+        </div>
+      </section>
+
+      <section id="section_skills" class="section_skills">
+        <div id="content_active" class="content_active">
+          <div class="description">
+            <div class="title">client-side web</div>
+            <p class="txt_content">
+              Em resumo, enquanto o ERP é um conceito genérico que descreve
+              sistemas integrados de gestão empresarial, o SAP é uma empresa que
+              produz e vende software ERP e outras soluções empresariais.
+            </p>
+          </div>
+
+          <div class="content">
+            <div class="progress_group">
+              <label for="">HTML</label>
+              <div class="progress_full">
+                <div class="progress"></div>
+              </div>
+            </div>
+
+            <div class="progress_group">
+              <label for="">HTML</label>
+              <div class="progress_full">
+                <div class="progress"></div>
+              </div>
+            </div>
+
+            <div class="progress_group">
+              <label for="">HTML</label>
+              <div class="progress_full">
+                <div class="progress"></div>
+              </div>
+            </div>
+
+            <div class="progress_group">
+              <label for="">HTML</label>
+              <div class="progress_full">
+                <div class="progress"></div>
+              </div>
+            </div>
+
+            <div class="progress_group">
+              <label for="">HTML</label>
+              <div class="progress_full">
+                <div class="progress"></div>
+              </div>
+            </div>
+
+            <div class="progress_group">
+              <label for="">HTML</label>
+              <div class="progress_full">
+                <div class="progress"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content" id="content_skills">
+          <div id="buton_webfront" class="button">
+            client-side web
+            <div id="icon_front" class="icon">
+              <img src="../assets/icons/Internet.svg" />
+            </div>
+          </div>
+          <div id="buton_webback" class="button">
+            server-side web
+            <div id="icon_webback" class="icon">
+              <img src="../assets/icons/Internet.svg" />
+            </div>
+          </div>
+          <div id="buton_systems" class="button">
+            systems
+            <div class="icon">
+              <img src="../assets/icons/Laptop_coding.svg" />
+            </div>
+          </div>
+          <div id="buton_games" class="button">
+            games
+            <div class="icon">
+              <img src="../assets/icons/Game_controller.svg" />
+            </div>
+          </div>
+          <div id="buton_databases" class="button">
+            databases
+            <div class="icon"><img src="../assets/icons/Database.svg" /></div>
+          </div>
+          <div id="buton_mobile" class="button">
+            mobile
+            <div class="icon"><img src="../assets/icons/iPhone.svg" /></div>
+          </div>
+          <div id="buton_others" class="button">
+            others
+            <div class="icon">
+              <img src="../assets/icons/Backend_development.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section_contact" class="section_contact">
+        <div class="title">contact me</div>
+
+        <form class="form">
+          <input id="email" class="email" placeholder="your email..." />
+          <textarea
+            id="message"
+            class="message"
+            placeholder="message..."
+          ></textarea>
+          <button class="send_button">
+            <img src="../assets/icons/Email.svg" />
+          </button>
+        </form>
+
+        <div class="content_button_group">
+          <button class="button" onclick="navigate('linkedin')">
+            <img src="../assets/icons/LinkedIn.svg" />
+          </button>
+          <button class="button" onclick="navigate('github')">
+            <img src="../assets/icons/GitHub.svg" />
+          </button>
+          <button class="button" onclick="navigate('youtube')">
+            <img src="../assets/icons/YouTube.svg" />
+          </button>
+        </div>
+      </section>
+    </content>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>

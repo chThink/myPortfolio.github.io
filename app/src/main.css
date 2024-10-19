@@ -1,0 +1,494 @@
+.hidden{
+  display: none !important;
+}
+
+body {
+  background-color: #0e0e0e;
+
+
+
+  content {
+    display: flex;
+    flex-direction: column;
+    
+    section{
+      flex: 1;
+      padding: 2rem;
+    }
+    .content_button_group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+
+      margin: 14px;
+      .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #0c0c0c;
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(114, 114, 114);
+
+        color: rgb(114, 114, 114);
+
+        img {
+          width: 20px;
+        }
+      }
+      .button:hover {
+        cursor: pointer;
+        background-color: #a7a7a752;
+      }
+    }
+
+    .section_home {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      height: 88vh;
+
+      background-color: #08050a;
+      background-image: url("../assets/background.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      header {
+        .nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          color: #c4c3c3;
+          font-size: 26px;
+          font-family: "Jura", sans-serif;
+          font-variant: small-caps;
+          padding: 22px;
+
+          
+
+          .button {
+            display: inline;
+            padding: 18px;
+            a{
+              text-decoration: none;
+              color: #c4c3c3;
+              
+            }
+          }
+          .button:hover {
+            cursor: pointer;
+          }
+        }
+      }
+      .profile_background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #fff;
+        background-image: url("../assets/background_profile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        margin-top: 84px;
+
+        .profile_img {
+          background-color: #1f1f1f;
+          background-image: url("../assets/profile.svg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+        }
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 62px;
+        margin-bottom: 22px;
+
+        font-family: monospace;
+        font-size: 1.2rem;
+        background-image: radial-gradient(#565656, #e5e5e5);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        mark {
+          margin-left: 0.5em;
+          background-image: radial-gradient(
+            #29adbf 25%,
+            #3a1ee8 45%,
+            #ac38f4 90%
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+
+    .section_description {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: #08050a;
+
+      gap: 10px;
+      height: 88vh;
+
+      .profile {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+
+        width: 320px;
+        height: 470px;
+        margin: 12px;
+        .profile_background {
+          background-image: linear-gradient(#3a1ee8, #29adbf, #9511e7);
+
+          width: 279px;
+          height: 432px;
+
+          .profile_img {
+            background-color: #232323;
+            background-image: url("../assets/astronaut.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 289px;
+            height: 442px;
+
+            position: relative;
+            bottom: 3vh;
+            right: 3vh;
+          }
+        }
+      }
+
+      .description {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        color: #c4c3c3;
+        width: 50%;
+
+        display: grid;
+        gap: 22px;
+        margin: 12px;
+        .title {
+          font-size: 26px;
+          font-family: "Jura", sans-serif;
+          font-variant: small-caps;
+        }
+        .txt_content {
+          font-size: 0.8rem;
+          font-family: "Poppins", sans-serif;
+          color: #c4c3c3;
+        margin: 12px;
+
+        }
+      }
+    }
+
+    .section_skills {
+      display: grid;
+      align-items: start;
+      justify-content: center;
+      justify-items: center;
+
+      height: 188vh;
+
+      .content_active {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 12px;
+        margin-top: 4vh;
+
+        width: 592px;
+
+        .description {
+          color: #c4c3c3;
+
+          display: grid;
+          gap: 22px;
+          margin: 12px;
+
+          .title {
+            color: #c4c3c3;
+            font-size: 26px;
+            font-family: "Jura", sans-serif;
+            font-variant: small-caps;
+          }
+          p {
+            font-size: 0.8rem;
+            font-family: "Poppins", sans-serif;
+            color: #c4c3c3;
+          }
+        }
+        .content {
+          .progress_group {
+            margin: 12px;
+
+            label {
+              color: #c4c3c3;
+              font-family: monospace;
+            }
+            .progress {
+              background-image: linear-gradient(#575656, #a7a7a7);
+              width: 192px;
+              height: 10px;
+              border-radius: 14px;
+            }
+            .progress_full {
+              background-color: #dbdbdb;
+              width: 100%;
+              height: 10px;
+              border-radius: 14px;
+            }
+          }
+        }
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 12px;
+        margin-top: 4vh;
+        .button {
+          display: grid;
+          background-color: rgba(56, 56, 56, 0.3);
+          width: 260px;
+          height: 220px;
+          margin: 4px;
+          padding: 14px;
+          border-radius: 14px;
+          color: #c4c3c3;
+          font-size: 26px;
+          font-family: "Jura", sans-serif;
+          font-variant: small-caps;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+
+            img {
+              width: 80px;
+            }
+          }
+        }
+
+        .button:hover{
+          cursor: pointer;
+          background-color: #a7a7a735;
+        }
+      }
+    }
+
+    .section_contact {
+      background-color: #08050a;
+      background-image: url("../assets/background_contact.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+
+
+      gap: 120px;
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #c4c3c3;
+        font-size: 26px;
+        font-family: "Jura", sans-serif;
+        font-variant: small-caps;
+
+      }
+      .form {
+        display: grid;
+        justify-items: center;
+        gap: 22px;
+        .email {
+          width: 280px;
+          height: 30px;
+          font-size: 1rem;
+          font-family: "Jura", sans-serif;
+
+          padding: 8px;
+
+          border-radius: 8px;
+          background-color: rgba(56, 56, 56, 0.3);
+          border: none;
+          color: #dbdbdb;
+        }
+        .email:focus {
+          outline: none;
+        }
+        .message {
+          width: 280px;
+          height: 70px;
+          font-size: 1rem;
+          font-family: "Jura", sans-serif;
+
+          border-radius: 8px;
+          padding: 8px;
+          background-color: rgba(56, 56, 56, 0.3);
+          border: none;
+          resize: none;
+          color: #dbdbdb;
+        }
+        .message:focus {
+          outline: none;
+        }
+      }
+
+      .send_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 44px;
+        width: 180px;
+
+        border-radius: 18px;
+        background-color: rgba(56, 56, 56, 0.3);
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(114, 114, 114);
+        color: rgb(114, 114, 114);
+        img {
+          width: 30px;
+        }
+      }
+
+      .send_button:hover {
+        cursor: pointer;
+        background-color: #a7a7a752;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section_home {
+    header {
+      .nav {
+        font-size: 22px !important;
+        padding: 18px !important;
+
+        .button{
+          padding: 14px !important;
+        }
+      }
+    }
+
+    .profile_background {
+      width: 180px !important ;
+      height: 180px !important ;
+
+      .profile_img {
+        width: 160px !important;
+        height: 160px !important;
+      }
+    }
+  }
+  .section_description {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 2px !important;
+    height: 120vh !important;
+
+    .profile {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+
+      width: 300px !important;
+      height: 400px !important;
+      .profile_background {
+
+        width: 212px !important;
+        height: 332px !important;
+
+        .profile_img {
+          width: 222px !important;
+          height: 342px !important;
+        }
+      }
+    }
+
+    .description {
+      width: 300px !important;
+    }
+  }
+  .section_skills {
+    height: 120vh !important;
+
+    .content_active {
+      width: 300px !important;
+      .content {
+        .progress_group {
+          label {
+            font-size: 12px !important;
+          }
+          .progress {
+            width: 82px !important;
+            height: 8px !important;
+          }
+          .progress_full {
+            height: 8px !important;
+          }
+        }
+      }
+    }
+
+    .content {
+      grid-template-columns: 50% 50% !important;
+
+      .button {
+        width: 130px !important;
+        height: 90px !important;
+        padding: 8px !important;
+        font-size: 16px !important;
+
+        .icon {
+          img {
+            width: 50px !important;
+          }
+        }
+      }
+    }
+  }
+  .section_contact {
+    height: 70vh !important;
+  }
+}
