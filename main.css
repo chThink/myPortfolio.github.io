@@ -1,17 +1,15 @@
-.hidden{
+.hidden {
   display: none !important;
 }
 
 body {
   background-color: #0e0e0e;
 
-
-
   content {
     display: flex;
     flex-direction: column;
-    
-    section{
+
+    section {
       flex: 1;
       padding: 2rem;
     }
@@ -57,7 +55,7 @@ body {
       height: 88vh;
 
       background-color: #08050a;
-      background-image: url("../assets/background.svg");
+      background-image: url("assets/background.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -74,15 +72,12 @@ body {
           font-variant: small-caps;
           padding: 22px;
 
-          
-
           .button {
             display: inline;
             padding: 18px;
-            a{
+            a {
               text-decoration: none;
               color: #c4c3c3;
-              
             }
           }
           .button:hover {
@@ -96,7 +91,7 @@ body {
         align-items: center;
 
         background-color: #fff;
-        background-image: url("../assets/background_profile.svg");
+        background-image: url("assets/background_profile.svg");
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -107,7 +102,7 @@ body {
 
         .profile_img {
           background-color: #1f1f1f;
-          background-image: url("../assets/profile.svg");
+          background-image: url("assets/profile.svg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -171,7 +166,7 @@ body {
 
           .profile_img {
             background-color: #232323;
-            background-image: url("../assets/astronaut.svg");
+            background-image: url("assets/astronaut.svg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 289px;
@@ -203,8 +198,7 @@ body {
           font-size: 0.8rem;
           font-family: "Poppins", sans-serif;
           color: #c4c3c3;
-        margin: 12px;
-
+          margin: 12px;
         }
       }
     }
@@ -298,7 +292,7 @@ body {
           }
         }
 
-        .button:hover{
+        .button:hover {
           cursor: pointer;
           background-color: #a7a7a735;
         }
@@ -307,7 +301,7 @@ body {
 
     .section_contact {
       background-color: #08050a;
-      background-image: url("../assets/background_contact.svg");
+      background-image: url("assets/background_contact.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -316,7 +310,6 @@ body {
       align-items: center;
       justify-content: center;
       justify-items: center;
-
 
       gap: 120px;
       .title {
@@ -328,7 +321,6 @@ body {
         font-size: 26px;
         font-family: "Jura", sans-serif;
         font-variant: small-caps;
-
       }
       .form {
         display: grid;
@@ -402,7 +394,7 @@ body {
         font-size: 22px !important;
         padding: 18px !important;
 
-        .button{
+        .button {
           padding: 14px !important;
         }
       }
@@ -435,7 +427,6 @@ body {
       width: 300px !important;
       height: 400px !important;
       .profile_background {
-
         width: 212px !important;
         height: 332px !important;
 
